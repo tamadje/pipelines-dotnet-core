@@ -14,7 +14,7 @@ variables:
 # do this before all your .NET Core tasks
 
 steps:
-- script: dotnet restore
+ 
 
 - task: DotNetCoreInstaller@0
   inputs:
